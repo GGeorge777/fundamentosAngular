@@ -1,9 +1,30 @@
-<nav>
-    <ul>
-    <li><a routerLink="primeira-pagina">Primeira página</a></li>
-    <li><a routerLink="segunda-pagina">Segunda página</a></li>
-    <li><a routerLink="pagina-protegida">Página Protegida</a></li>    
-    </ul>
-</nav>
-<router-outlet></router-outlet>
+<app-card titulo="Primeiro componente" cor='#3D4D63'>
+    <app-primeiro-componente></app-primeiro-componente>
+</app-card>
+<app-card titulo="Aprofundando o conhecimento em templates" cor="#B2E7E8">
+        <app-segundo-componente></app-segundo-componente>
+</app-card>
+<app-card titulo="Pipes" cor="#BFB9AA">
+    <app-pipe-customizado></app-pipe-customizado>
+</app-card>
+<app-card titulo="Two-Way Data Binding" cor="#F2D096">
+    <app-two-way-data-binding></app-two-way-data-binding>
+</app-card>
+<app-card titulo="Renderizando listas" cor="#ED8975">
+</app-card>
+<app-card>
+<app-card titulo="Componentes personalizados (Input)" cor="#FFE3DC">
+<app-componente-personalizado nome ="John" sobrenome="Shelby"></app-componente-personalizado>
+<app-componente-personalizado nome ="Grace" sobrenome="Shelby"></app-componente-personalizado>
+</app-card>
+<app-card titulo="Compartilhando daos entre companentes" cor="#A2AD91">
+    <app-componente-pai></app-componente-pai>
+</app-card>
 
+<app-card titulo="Serviços" cor="#3A2D32">
+<app-exemplo-servicos1></app-exemplo-servicos1>
+<app-exemplo-servicos2></app-exemplo-servicos2>
+</app-card>
+<app-card titulo="Ciclo de vida">
+<app-ciclo-de-vida-pai></app-ciclo-de-vida-pai>
+</app-card>
